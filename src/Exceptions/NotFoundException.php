@@ -5,7 +5,7 @@ class NotFoundException extends ApiskelException
     /**
      * @var string
      */
-    protected $id = 'not_found';
+    protected $id = 'notFound';
 
     /**
      * @var string
