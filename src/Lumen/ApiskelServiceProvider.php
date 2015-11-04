@@ -12,7 +12,7 @@ class ApiskelServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../Config/apiskel.php' => config_path('apiskel.php'),
+            __DIR__ . '/../Config/apiskel.php' => base_path('config/apiskel.php'),
         ], 'apiskel');
         $this->mergeConfigFrom(__DIR__ . '/../Config/apiskel.php', 'apiskel');
     }
